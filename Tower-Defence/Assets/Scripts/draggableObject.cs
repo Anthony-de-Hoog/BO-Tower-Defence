@@ -5,20 +5,10 @@ using UnityEngine;
 public class draggableObject : MonoBehaviour
 {
     bool isDraggable = false;
-    public Color newColor = Color.white;
-
-    [SerializeField] private SpriteRenderer spriteRenderer;
-
-
-    void Start()
-    {
-
-    }
 
 
     void Update()
     {
-        spriteRenderer.color = newColor;
         Vector3 mousePosition = Input.mousePosition;
         mousePosition = Camera.main.ScreenToWorldPoint(mousePosition);
 
