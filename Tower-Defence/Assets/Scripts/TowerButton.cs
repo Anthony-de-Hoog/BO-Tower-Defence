@@ -1,18 +1,19 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class TowerButton : MonoBehaviour
 {
-    [SerializeField] private GameObject[] tower;
-    public bool MouseHasTower = false;
+    [SerializeField] private GameObject[] towers;
+    public bool mouseHasTower = false;
 
     public void Tower(int towerNumber)
     {
-        if (!MouseHasTower)
+        if (!mouseHasTower)
         {
-            //MouseHasTower = true;
-            Instantiate(tower[towerNumber]);
+            Vector3 mousePosition = Input.mousePosition;
+            mousePosition = Camera.main.ScreenToWorldPoint(mousePosition);
+            Instantiate(towers[towerNumber], mousePosition, Quaternion.identity);
+            mouseHasTower = true;
+            Debug.Log("blaasssss");
         }
     }
 }
