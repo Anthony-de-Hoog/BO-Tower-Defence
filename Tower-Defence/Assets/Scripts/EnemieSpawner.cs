@@ -33,12 +33,5 @@ public class EnemySpawner : MonoBehaviour
             Debug.Log("Spawned Cube automatically at: " + spawnPoint);
             timer = 0;
         }
-
-        // Destroy all enemies on Q key press
-        if (Input.GetKeyDown(KeyCode.Q))
-        {
-            foreach (GameObject cube in cubes)
-                Destroy(cube);
-        }
     }
 }
