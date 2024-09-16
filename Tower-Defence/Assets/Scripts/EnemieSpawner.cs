@@ -26,13 +26,6 @@ public class EnemySpawner : MonoBehaviour
         // Update timer
         timer += Time.deltaTime;
 
-        // Spawn on W key press
-        if (Input.GetKeyDown(KeyCode.W))
-        {
-            Instantiate(Cube, spawnPoint, Quaternion.identity);
-            Debug.Log("Spawned Cube at: " + spawnPoint);
-        }
-
         // Automatic spawning every 3 seconds
         if (timer >= 3)
         {
