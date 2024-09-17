@@ -10,16 +10,13 @@ public class EnemySpawner : MonoBehaviour
 
     void Start()
     {
-        // Debug the initial spawn point value
-        Debug.Log($"Initial spawnPoint: {spawnPoint}");
+        
 
     }
 
     void Update()
     {
-        // Debug the spawn point value each frame
-        Debug.Log($"Current spawnPoint: {spawnPoint}");
-
+        
         // Find all objects with the "Enemie" tag
         GameObject[] cubes = GameObject.FindGameObjectsWithTag("Enemie");
 
