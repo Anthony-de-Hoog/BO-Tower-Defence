@@ -1,13 +1,8 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-
 public class Enemies : MonoBehaviour
 {
-    public float speed = 2f;
-
-    public float lifetime = 5f; // Time before the object is destroyed
-
+    [SerializeField] private float speed = 2f;
+    [SerializeField] private float lifetime = 5f; // Time before the object is destroyed
     void Start()
     {
         // Destroy the object after the specified lifetime
@@ -16,6 +11,6 @@ public class Enemies : MonoBehaviour
 
     void Update()
     {
-        transform.Translate(Vector2.up * speed * Time.deltaTime);
+        transform.position = transform.position + transform.up * speed * Time.deltaTime;
     }
 }
