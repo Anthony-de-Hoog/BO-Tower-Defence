@@ -1,13 +1,9 @@
 using UnityEngine;
 public class draggableObject : MonoBehaviour
 {
-    [SerializeField] private SpriteRenderer spriteRenderer;
     private GameObject towerControll;
     private TowerButton aaa;
-
-    bool isDraggable = true;
-    // private TowerButton TowerButton;
-
+    public bool isDraggable = true;
     private void Start()
     {
         towerControll = GameObject.Find("TowerButton");
@@ -15,7 +11,6 @@ public class draggableObject : MonoBehaviour
     }
     void Update()
     {
-
         if (isDraggable)
         {
             Vector3 mousePosition = Input.mousePosition;
@@ -27,6 +22,5 @@ public class draggableObject : MonoBehaviour
     {
         if (Input.mousePosition.x > 350 || Input.mousePosition.y > 250) { isDraggable = false; aaa.mouseHasTower = false; }
         print(Input.mousePosition.y);
-        //TowerButton.mouseHasTower = false;
     }
 }

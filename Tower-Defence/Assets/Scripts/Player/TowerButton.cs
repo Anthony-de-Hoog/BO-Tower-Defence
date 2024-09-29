@@ -5,7 +5,7 @@ public class TowerButton : MonoBehaviour
     [SerializeField] private GameObject[] towers;
     public bool mouseHasTower = false;
 
-    public void Tower(int towerNumber)
+    private void Tower(int towerNumber)
     {
         if (!mouseHasTower)
         {
@@ -13,7 +13,6 @@ public class TowerButton : MonoBehaviour
             mousePosition = Camera.main.ScreenToWorldPoint(mousePosition);
             Instantiate(towers[towerNumber], mousePosition, Quaternion.identity);
             mouseHasTower = true;
-            Debug.Log("blaasssss");
         }
     }
 }
