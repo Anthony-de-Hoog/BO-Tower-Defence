@@ -17,7 +17,7 @@ public class EnemySpawner : MonoBehaviour
         // Update timer
         timer += Time.deltaTime;
         // Automatic spawning every 3 seconds
-        if (timer >= 3)
+        if (timer >= 1)
         {
             Instantiate(Cube, new Vector2(1,-5), Quaternion.identity);
             timer = 0;
