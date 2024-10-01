@@ -2,10 +2,7 @@ using UnityEngine;
 
 public class Bullets : MonoBehaviour
 {
-    //public static event Action OnHit;
-    public float speed = 20f;
-    public float explosionRadius = 0f;
-    public GameObject impactEffect;
+    public float speed = 1f;
     private Transform target;
 
     // Function to assign a target to the bullet
@@ -44,23 +41,13 @@ public class Bullets : MonoBehaviour
         Destroy(gameObject); // Destroy the bullet
     }
 
-    void Explode()
-    {
-        Collider[] colliders = Physics.OverlapSphere(transform.position, explosionRadius);
-        foreach (Collider collider in colliders)
-        {
-            if (collider.tag == "Enemy")
-            {
-                Damage(collider.transform);
-            }
-        }
-    }
-
     void Damage(Transform enemy)
     {
-        // Here you can reduce the enemy's health or destroy it
-        Destroy(enemy.gameObject); // Just destroying for now
+        // Check if the target has an Enemy component and apply damage
+        Enemies enemyComponent = enemy.GetComponent<Enemies>();
+        if (enemyComponent != null)
+        {
+            enemyComponent.TakeDamage(1); // Deal 1 damage to the enemy
+        }
     }
-
-    
 }

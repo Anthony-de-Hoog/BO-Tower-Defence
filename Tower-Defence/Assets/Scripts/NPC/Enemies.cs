@@ -2,13 +2,15 @@ using UnityEngine;
 
 public class Enemies : MonoBehaviour
 {
-    [SerializeField] private float speed = 1f;
+    [SerializeField] private float speed = 2f;
+    [SerializeField] public int health = 12; // The enemy starts with 4 health
     private Waypoints Wpoints;
     private int waypointIndex = 0;  // Initialize to 0
 
+
     void Start()
     {
-        // Correct the method to find a single GameObject, not an array
+        // My the method to find a single GameObject, not an array
         Wpoints = GameObject.FindGameObjectWithTag("Waypoints").GetComponent<Waypoints>();
 
         // Ensure you have at least one waypoint
@@ -43,6 +45,16 @@ public class Enemies : MonoBehaviour
             {
                 Destroy(gameObject);  // Destroy the enemy when it reaches the final waypoint
             }
+        }
+    }
+
+    // This method is called when the enemy takes damage
+    public void TakeDamage(int amount)
+    {
+        health -= amount; // Reduce health by the given amount
+        if (health <= 0)
+        {
+            Destroy(gameObject); // Destroy the enemy game object
         }
     }
 }
