@@ -1,11 +1,15 @@
+using System;
 using UnityEngine;
 
 public class Enemies : MonoBehaviour
 {
     [SerializeField] private float speed = 2f;
     [SerializeField] public int health = 12; // The enemy starts with 4 health
+
     private Waypoints Wpoints;
     private int waypointIndex = 0;  // Initialize to 0
+
+    public static event Action OnHit; //The action event for when the enemy reaches his end
 
 
     void Start()
@@ -43,6 +47,8 @@ public class Enemies : MonoBehaviour
             }
             else
             {
+                OnHit?.Invoke(); // This will send the action event
+
                 Destroy(gameObject);  // Destroy the enemy when it reaches the final waypoint
             }
         }
