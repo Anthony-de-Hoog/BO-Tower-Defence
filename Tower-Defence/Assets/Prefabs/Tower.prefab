@@ -148,7 +148,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   range: 2
-  rotationSpeed: 5
   Bullet: {fileID: 5613084276744676677, guid: a0896f79d519a7541884fcad7603b4c7, type: 3}
   shootPoint: {fileID: 6367968151726343508}
-  fireRate: 4
+  fireRate: 1

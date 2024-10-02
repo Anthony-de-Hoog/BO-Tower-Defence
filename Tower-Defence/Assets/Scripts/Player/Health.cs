@@ -13,7 +13,7 @@ public class Health : MonoBehaviour
     {
         if (health <= 0) 
         {
-            SceneManager.LoadScene(1); // When the health of the player is 0 the player dies and the scene will switch to the game over switch
+            SceneManager.LoadScene(2); // When the health of the player is 0 the player dies and the scene will switch to the game over switch
             Debug.Log("You're dead");
         }
     }

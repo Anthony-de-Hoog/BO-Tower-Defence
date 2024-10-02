@@ -3,13 +3,14 @@ using UnityEngine;
 
 public class Enemies : MonoBehaviour
 {
-    [SerializeField] private float speed = 2f;
+    [SerializeField] private float speed = 1f;
     [SerializeField] public int health = 12; // The enemy starts with 4 health
 
     private Waypoints Wpoints;
     private int waypointIndex = 0;  // Initialize to 0
 
     public static event Action OnHit; //The action event for when the enemy reaches his end
+    public static event Action OnDefeat;
 
 
     void Start()
@@ -60,6 +61,7 @@ public class Enemies : MonoBehaviour
         health -= amount; // Reduce health by the given amount
         if (health <= 0)
         {
+            OnDefeat?.Invoke(); // This will send the action event
             Destroy(gameObject); // Destroy the enemy game object
         }
     }
