@@ -4,7 +4,7 @@ public class Tower : MonoBehaviour
 {
     private float range = 2f;       // The radius of the tower's shooting range
     [SerializeField] private GameObject Bullet;  // Bullet prefab to shoot
-    private Transform shootPoint;     // The point where the bullet will be spawned
+    [SerializeField] private Transform shootPoint;    // The point where the bullet will be spawned
     private float fireRate = 1f;      // Time between shots
     private Transform target;        // Current target enemy
     private float fireCountdown = 0f;
