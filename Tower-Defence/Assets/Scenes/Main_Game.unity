@@ -778,7 +778,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   towers:
   - {fileID: 2846494177170954094, guid: 7cb24c25585e4a840a01a938378a8105, type: 3}
-  mouseHasTower: 0
 --- !u!4 &767179087
 Transform:
   m_ObjectHideFlags: 0
@@ -2131,16 +2130,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 497865dd3fdca4342b4ea05652a835bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waypoints:
-  - {fileID: 1373283769}
-  - {fileID: 658496238}
-  - {fileID: 1303908132}
-  - {fileID: 795219785}
-  - {fileID: 1599416523}
-  - {fileID: 1441259865}
-  - {fileID: 1253376311}
-  - {fileID: 146739104}
-  - {fileID: 472044374}
 --- !u!4 &1970099214
 Transform:
   m_ObjectHideFlags: 0
