@@ -3,7 +3,14 @@ using UnityEngine;
 public class TowerButton : MonoBehaviour
 {
     [SerializeField] private GameObject[] towers;
-    public bool mouseHasTower = false;
+    private bool MouseHasTower = false;
+
+    public bool mouseHasTower
+    {
+        get { return MouseHasTower; }
+        set { MouseHasTower = value; }
+    }
+
 
     private void Tower(int towerNumber)
     {

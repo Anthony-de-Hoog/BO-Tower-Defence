@@ -4,7 +4,7 @@ using UnityEngine;
 public class Enemies : MonoBehaviour
 {
     [SerializeField] private float speed = 1f;
-    [SerializeField] public int health = 12; // The enemy starts with 4 health
+    [SerializeField] private int health = 12; // The enemy starts with 4 health
 
     private Waypoints Wpoints;
     private int waypointIndex = 0;  // Initialize to 0
@@ -35,9 +35,9 @@ public class Enemies : MonoBehaviour
         transform.position = Vector2.MoveTowards(transform.position, Wpoints.waypoints[waypointIndex].position, speed * Time.deltaTime);
 
         // Rotate the enemy to face the direction it's moving in
-        Vector3 dir = Wpoints.waypoints[waypointIndex].position - transform.position;
-        float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
-        transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+        //Vector3 dir = Wpoints.waypoints[waypointIndex].position - transform.position;
+        //float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
+        //transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
 
         // Check if we've reached the current waypoint
         if (Vector2.Distance(transform.position, Wpoints.waypoints[waypointIndex].position) < 0.1f)

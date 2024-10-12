@@ -2,10 +2,10 @@ using UnityEngine;
 
 public class Tower : MonoBehaviour
 {
-    public float range = 2f;       // The radius of the tower's shooting range
+    private float range = 2f;       // The radius of the tower's shooting range
     [SerializeField] private GameObject Bullet;  // Bullet prefab to shoot
-    public Transform shootPoint;     // The point where the bullet will be spawned
-    public float fireRate = 1f;      // Time between shots
+    private Transform shootPoint;     // The point where the bullet will be spawned
+    private float fireRate = 1f;      // Time between shots
     private Transform target;        // Current target enemy
     private float fireCountdown = 0f;
 

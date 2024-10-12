@@ -3,7 +3,7 @@ public class draggableObject : MonoBehaviour
 {
     private GameObject towerControll;
     private TowerButton aaa;
-    public bool isDraggable = true;
+    private bool isDraggable = true;
     private void Start()
     {
         towerControll = GameObject.Find("TowerButton");

@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Bullets : MonoBehaviour
 {
-    public float speed = 1f;
+    private float speed = 1f;
     private Transform target;
 
     // Function to assign a target to the bullet
