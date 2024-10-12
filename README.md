@@ -18,17 +18,19 @@ Mappen link: https://github.com/Anthony-de-Hoog/BO-Tower-Defence/tree/main/Tower
 
 ## Leerdoel 3: "Build":
 
+releases link: https://github.com/Anthony-de-Hoog/BO-Tower-Defence/releases
+
 ## Leerdoel 4: "Game met Sprites(animations) en Textures":
 
-Moet nog komen
+Textures link: https://github.com/Anthony-de-Hoog/BO-Tower-Defence/tree/main/Tower-Defence/Assets/Graphics/Textures
 
 ## Leerdoel 5: "Issues met debug screenshots":
 
-Moet nog komen
+isse Link: https://github.com/Anthony-de-Hoog/BO-Tower-Defence/issues/1 
 
 ## Leerdoel 6: "Game design met onderbouwing":
 
-Moet nog komen
+Designs link: https://github.com/Anthony-de-Hoog/BO-Tower-Defence/tree/main/Tekening%20plan
 
 ## Leerdoel 7: "Class Diagram voor volledige codebase":
 
@@ -40,7 +42,7 @@ Moet nog komen
 
 ## Leerdoel 9: "SCRUM planning inschatting":
 
-Moet nog komen
+Trello Link: https://trello.com/b/hGBjoPCN/tower-defence
 
 ## Leerdoel 10: "Gitflow conventions":
 
