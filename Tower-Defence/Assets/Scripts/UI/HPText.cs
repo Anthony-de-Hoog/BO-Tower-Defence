@@ -5,6 +5,12 @@ public class HPText : MonoBehaviour
 {
     private int health = 4;
     private int score = 0;
+
+    public int Score { 
+        get { return score; } 
+        set { score = value; }
+    }
+
     private TMP_Text textField;
 
     private NextScene nextScene;
@@ -35,6 +41,7 @@ public class HPText : MonoBehaviour
         if (score >= 900)
         {
             nextScene.LoadScene(3);
+            score = 0;
         }
     }
 }

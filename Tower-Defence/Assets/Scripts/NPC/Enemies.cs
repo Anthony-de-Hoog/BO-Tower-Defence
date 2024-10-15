@@ -4,7 +4,7 @@ using UnityEngine;
 public class Enemies : MonoBehaviour
 {
     [SerializeField] private float speed = 1f;
-    [SerializeField] private int health = 12; // The enemy starts with 4 health
+    [SerializeField] private int health = 12; // The enemy starts with 12 health
 
     private Waypoints Wpoints;
     private int waypointIndex = 0;  // Initialize to 0
