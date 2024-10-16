@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Bullets : MonoBehaviour
 {
-    private float speed = 5f;
+    private float speed = 5f; // Speed of the bullets
     private Transform target;
 
     // Function to assign a target to the bullet
@@ -13,7 +13,7 @@ public class Bullets : MonoBehaviour
 
     void Update()
     {
-        // If there is no target, destroy the bullet
+        // If there is no target, the bullet will be destroyed
         if (target == null)
         {
             Destroy(gameObject);
@@ -37,7 +37,7 @@ public class Bullets : MonoBehaviour
 
     void HitTarget()
     {
-        Damage(target);
+        Damage(target); // Damages the target, in this instance the enemie object
         Destroy(gameObject); // Destroy the bullet
     }
 

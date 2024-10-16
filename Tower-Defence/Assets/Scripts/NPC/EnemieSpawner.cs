@@ -6,10 +6,6 @@ public class EnemySpawner : MonoBehaviour
     [SerializeField] private float timer = 0; // Timer for automatic spawning
     //public Vector3 spawnPoint = new Vector3(4, -5, 0); // Perfect spawn point for bottom of the camera
 
-    void Start()
-    {
-    }
-
     void Update()
     {
         // Find all objects with the "Enemie" tag

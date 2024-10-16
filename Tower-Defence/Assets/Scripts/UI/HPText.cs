@@ -3,9 +3,10 @@ using UnityEngine;
 
 public class HPText : MonoBehaviour
 {
-    private int health = 4;
-    private int score = 0;
+    private int health = 4; // Player health
+    private int score = 0; // The game score
 
+    // Makes the score accesable for the other scripts and private for the users
     public int Score { 
         get { return score; } 
         set { score = value; }
@@ -23,7 +24,6 @@ public class HPText : MonoBehaviour
         Enemies.OnDefeat += ShowScore; // This will subscribe to the OnDefeat action event from Enemies
     }
 
-    // Update is called once per frame
     void Update()
     {
         textField.text = "Score: " + score + "\n HP: " + health;

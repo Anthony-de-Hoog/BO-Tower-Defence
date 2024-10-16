@@ -11,7 +11,6 @@ public class NextScene : MonoBehaviour
     public void Quit()
     {
         Application.Quit(); // The code to quit the game
-        Debug.Log("Quit!");
     }
 
 }

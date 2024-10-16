@@ -7,7 +7,7 @@ public class Tower : MonoBehaviour
     [SerializeField] private Transform shootPoint;    // The point where the bullet will be spawned
     private float fireRate = 1f;      // Time between shots
     private Transform target;        // Current target enemy
-    private float fireCountdown = 0f;
+    private float fireCountdown = 0f; 
 
     void Update()
     {
