@@ -14,36 +14,60 @@ Hier laat ik mijn Enemies script zien waar ik een array heb gebruikt voor de way
 
 ## Leerdoel 2: "Projectmappen":
 
-Mappen link: https://github.com/Anthony-de-Hoog/BO-Tower-Defence/tree/main/Tower-Defence
+Mappen link: https://github.com/Anthony-de-Hoog/BO-Tower-Defence/tree/main/Tower-Defence/Assets
+
+Bij dit project zullen de hoofd catogegorieën in de assets folder namen hebben die de inhoud van de folder in 1 woord beschrijven, zoals “Prefabs” of “Scripts”.
+
+Alle namen zullen ook met hoofdletters beginnen. 
+Alle sub- catogegorieën zullen ook uit 1 beschrijvende woord bestaan die ook te maken hebben met het hoofdcategorie waar de folders in zitten.
+
+Als een naam uit meerdere woorden bestaat in de scripts zullen de woorden aanelkaar staan met hoofdletters bij de volgende woord, bij de rest zoals folders of scenes zal er gebruik worden gemaakt met underscores (_).
+
+Voor folders met meerdere assets voor dezelfde type zal er namen met een meervoud gegeven woorden bijvoorbeeld “Scripts”.
+
+Eenvoudige assets zullen ook maar namen hebben in het enkelvoud.
+
 
 ## Leerdoel 3: "Build":
 
 releases link: https://github.com/Anthony-de-Hoog/BO-Tower-Defence/releases
 
+Hier zijn de builds die ik heb gemaakt met het nieuwste de volledige versie van het spel.
+
+Ik heb een eigen muis voor dit build gemaakt en een splash screen ervoor gebruikt. Ik heb ook een icon ervoor gebruikt.
+
 ## Leerdoel 4: "Game met Sprites(animations) en Textures":
 
-Textures link: https://github.com/Anthony-de-Hoog/BO-Tower-Defence/tree/main/Tower-Defence/Assets/Graphics/Textures
+![Textures Demo](gifs/TextureDemo.gif)
+
+Ik heb geen animations kunnen maken maar we hebben hier ook niet echt les erover gekregen. Ik heb wel mijn eigen sprites gemaakt en geimporteert in mijn game en mijn sprites volgt ook de power of 2.
 
 ## Leerdoel 5: "Issues met debug screenshots":
 
-isse Link: https://github.com/Anthony-de-Hoog/BO-Tower-Defence/issues/1 
+issues Link: https://github.com/Anthony-de-Hoog/BO-Tower-Defence/issues/2
+
+Hier laat ik 1 van de issues zien waar ik tegen kwam. Ik heb toen mijn debugging tools gebruikt om te kijken wat er precies fout ging en wat voor oplossing ik zou kunnen gebruiken. Dit is wel een oude code want ik heb hierna mijn code wat meer aangepast en netter gemaakt. Voorheen zat dit stukje script in een Tower script maar nu heb ik het verplaats naar zijn eigen script.
 
 ## Leerdoel 6: "Game design met onderbouwing":
 
 Designs link: https://github.com/Anthony-de-Hoog/BO-Tower-Defence/tree/main/Tekening%20plan
 
+Hier zijn de links naar mijn ideeën die ik heb uitgetekend. Ik kan begrijpen dat dezze tekeningen er nogal chaotisch eruit zien, maar omdat ik in mijn eentje werkte en ik meestal al mijn ideeën op dit manier uitschrijf, begrijp ik deze tekeningen.
+
 ## Leerdoel 7: "Class Diagram voor volledige codebase":
 
-Moet nog komen
+Kan nog komen
 
 ## Leerdoel 8: "Prototype test video":
 
-Moet nog komen
+Was niet van toepassing
 
 ## Leerdoel 9: "SCRUM planning inschatting":
 
 Trello Link: https://trello.com/b/hGBjoPCN/tower-defence
 
+Ik heb Trello gebruikt, maar ik moet toegeven dat ik het wat meer moet gebruiken om dit beter onder de knie te krijgen
+
 ## Leerdoel 10: "Gitflow conventions":
 
-Moet nog komen
+Was niet van toepassing
