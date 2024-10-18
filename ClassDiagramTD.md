@@ -6,80 +6,68 @@
 classDiagram
 
 class Shooter{
-    + Attribute     //public
-    - attribute     //private
-    + Operation()   //public
-    - Operation()   //private
+    - float fireRate
+    - float fireCountdown
+    + Shoot()
+
 }
 
 class FindTarget{
-    + Attribute     //public
-    - attribute     //private
-    + Operation()   //public
-    - Operation()   //private
+    - float range
+    - Transform target
+    + findTarget()
 }
 
 class HPText{
-    + Attribute     //public
-    - attribute     //private
-    + Operation()   //public
-    - Operation()   //private
+    - int health
+    - int score
+    + ShowHP()
+    + ShowScore()
 }
 
 class NextScene{
-    + Attribute     //public
-    - attribute     //private
-    + Operation()   //public
-    - Operation()   //private
+    + LoadScene()
+    + Quit()
 }
 
 class Health{
-    + Attribute     //public
-    - attribute     //private
-    + Operation()   //public
-    - Operation()   //private
+    - float health
+    - Damage()
 }
 
 class Bullets{
-    + Attribute     //public
-    - attribute     //private
+    - float speed
+    - Transform target
     + Operation()   //public
-    - Operation()   //private
+    - Seek()
+    + HitTarget()
+    + Damage()
 }
 
 class EnemieSpawner{
-    + Attribute     //public
-    - attribute     //private
-    + Operation()   //public
-    - Operation()   //private
+    - float timer
+    + Update()
 }
 
 class Enemies{
-    + Attribute     //public
-    - attribute     //private
-    + Operation()   //public
-    - Operation()   //private
+    - float speed
+    - int health
+    - int waypointIndex
+    + TakeDamage()
 }
 
 class Waypoints{
-    + Attribute     //public
-    - attribute     //private
-    + Operation()   //public
-    - Operation()   //private
+    - Transform[] Waypoint   
 }
 
 class DraggableObjects{
-    + Attribute     //public
-    - attribute     //private
-    + Operation()   //public
-    - Operation()   //private
+    - bool isDraggable
+    - OnMouseDown()
 }
 
 class TowerButton{
-    + Attribute     //public
-    - attribute     //private
-    + Operation()   //public
-    - Operation()   //private
+    - bool MouseHasTower
+    - Tower()
 }
 
 ChildClass --|> ParentClass

@@ -17,12 +17,6 @@ public class Enemies : MonoBehaviour
     {
         // My method to find a single GameObject, not an array
         Wpoints = GameObject.FindGameObjectWithTag("Waypoints").GetComponent<Waypoints>();
-
-        // To ensure I have at least one waypoint
-        if (Wpoints == null || Wpoints.waypoints.Length == 0)
-        {
-            return;
-        }
     }
 
     void Update()
