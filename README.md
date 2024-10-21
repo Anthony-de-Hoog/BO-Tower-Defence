@@ -70,7 +70,7 @@ Ik heb getekent dat ik wil dat de torens een radius hebben waar ze alleen op de 
 
 ## Leerdoel 7: "Class Diagram voor volledige codebase":
 
-Kan nog komen
+Class Diagram link: https://github.com/Anthony-de-Hoog/BO-Tower-Defence/blob/main/ClassDiagramTD.md
 
 ## Leerdoel 8: "Prototype test video":
 
