@@ -70,10 +70,24 @@ class TowerButton{
     - Tower()
 }
 
-ChildClass --|> ParentClass
+Waypoints <.. Enemies : waypoints[]
 
+EnemieSpawner <.. Enemies
 
-DependentClass ..> MyClass
+TowerButton <.. DraggableObjects
+
+Enemies <.. Health : action event onHit
+
+HPText <.. Health
+
+Enemies <.. HPText : action event onHit + onDefeat
+
+NextScene <.. HPText : nextscene
+
+FindTarget <.. Shooter
+
+Bullets <.. Shooter
+
 
 
 ```

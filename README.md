@@ -40,19 +40,33 @@ Ik heb een eigen muis voor dit build gemaakt en een splash screen ervoor gebruik
 
 ![Textures Demo](gifs/TextureDemo.gif)
 
-Ik heb geen animations kunnen maken maar we hebben hier ook niet echt les erover gekregen. Ik heb wel mijn eigen sprites gemaakt en geimporteert in mijn game en mijn sprites volgt ook de power of 2.
+Ik heb geen animations kunnen maken maar we hebben hier ook niet echt les erover gekregen. 
+Ik heb wel mijn eigen sprites gemaakt en geimporteert in mijn game en mijn sprites volgt ook de power of 2.
 
 ## Leerdoel 5: "Issues met debug screenshots":
 
 issues Link: https://github.com/Anthony-de-Hoog/BO-Tower-Defence/issues/2
 
-Hier laat ik 1 van de issues zien waar ik tegen kwam. Ik heb toen mijn debugging tools gebruikt om te kijken wat er precies fout ging en wat voor oplossing ik zou kunnen gebruiken. Dit is wel een oude code want ik heb hierna mijn code wat meer aangepast en netter gemaakt. Voorheen zat dit stukje script in een Tower script maar nu heb ik het verplaats naar zijn eigen script.
+Hier laat ik 1 van de issues zien waar ik tegen kwam. 
+Ik heb toen mijn debugging tools gebruikt om te kijken wat er precies fout ging en wat voor oplossing ik zou kunnen gebruiken. 
+Dit is wel een oude code want ik heb hierna mijn code wat meer aangepast en netter gemaakt. 
+Voorheen zat dit stukje script in een Tower script maar nu heb ik het verplaats naar zijn eigen script.
 
 ## Leerdoel 6: "Game design met onderbouwing":
 
 Designs link: https://github.com/Anthony-de-Hoog/BO-Tower-Defence/tree/main/Tekening%20plan
 
-Hier zijn de links naar mijn ideeën die ik heb uitgetekend. Ik kan begrijpen dat dezze tekeningen er nogal chaotisch eruit zien, maar omdat ik in mijn eentje werkte en ik meestal al mijn ideeën op dit manier uitschrijf, begrijp ik deze tekeningen.
+Hier zijn de links naar mijn ideeën die ik heb uitgetekend. 
+Ik kan begrijpen dat dezze tekeningen er nogal chaotisch eruit zien, 
+maar omdat ik in mijn eentje werkte en ik meestal al mijn ideeën op dit manier uitschrijf, begrijp ik deze tekeningen.
+
+Bij de Map_Idee heb ik een foto van een map gebruikt en geschets welk deel van de map ik wil gebruiken en wat het path van mijn enemies zullen zijn.
+
+Bij de Enemy_Health Heb ik mijn idee uitgeschreven waar de enemy object levens heeft, 
+geraakt wordt en een levens punt verliest en dat wanneer hij geen levens punten meer heeft dat de enemie object dan verslagen is.
+
+Bij de Bullet_Idee heb ik uitgetekent hoe ik ongeveer wil dat de bullets werken.
+Ik heb getekent dat ik wil dat de torens een radius hebben waar ze alleen op de enemy GameObjecten schieten wanneer ze binnen in de radius zitten.
 
 ## Leerdoel 7: "Class Diagram voor volledige codebase":
 
@@ -66,7 +80,7 @@ Was niet van toepassing
 
 Trello Link: https://trello.com/b/hGBjoPCN/tower-defence
 
-Ik heb Trello gebruikt, maar ik moet toegeven dat ik het wat meer moet gebruiken om dit beter onder de knie te krijgen
+Ik heb Trello gebruikt, maar ik moet toegeven dat ik het wat meer moet gebruiken om dit beter onder de knie te krijgen.
 
 ## Leerdoel 10: "Gitflow conventions":
 

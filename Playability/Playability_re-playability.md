@@ -21,3 +21,14 @@ Het zou namelijk slechte playability hebben wanneer de baasgevechten bugs heeft 
 Nog een rede waarom dit een goede playability toont is omdat de baas gevecht nogal moeilijk is en de speler van dit clip heeft zoveel gespeeld en geoefend om niet geraakt te worden door de baas, wat dus aantoont datde baas uitdagend genoeg is dat de speler wilt blijven spelen om beter te worden.
 
 # Opdracht 4
+[Voorbeeld game re-playability](https://youtube.com/clip/UgkxA4K_nMayznqtVs0f_hltHdNLQjVHwnt2?si=ILH731VkxxjTy8xg)
+
+Dit is een clip van de RogueLike spel Dead Cells.
+
+In Dead Cells is het zo dat wanneer je dood ga, je in princiepe opnieuw moet beginnen, maar dan met de upgrades die je hebt gekregen in je vorige run.
+Dit zorgt ervoor dat de speler het spel steeds opnieuw blijft spelen, maar wel steeds betere spullen krijgt en houd.
+
+# Opdracht 5
+
+GitLink: https://github.com/Anthony-de-Hoog/BO-Tower-Defence/blob/main/README.md
+
