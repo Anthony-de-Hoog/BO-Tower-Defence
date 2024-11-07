@@ -37,10 +37,16 @@ Hier zijn de links naar mijn ideeën die ik heb uitgetekend.
 Ik kan begrijpen dat dezze tekeningen er nogal chaotisch eruit zien, 
 maar omdat ik in mijn eentje werkte en ik meestal al mijn ideeën op dit manier uitschrijf, begrijp ik deze tekeningen.
 
+![Map_Idee](https://github.com/user-attachments/assets/29631a68-f78d-4101-9363-13240e9b1a44)
+
 Bij de Map_Idee heb ik een foto van een map gebruikt en geschets welk deel van de map ik wil gebruiken en wat het path van mijn enemies zullen zijn.
+
+![Enemy_Health](https://github.com/user-attachments/assets/7f87a53c-7835-44e9-a349-6696a4ea61e1)
 
 Bij de Enemy_Health Heb ik mijn idee uitgeschreven waar de enemy object levens heeft, 
 geraakt wordt en een levens punt verliest en dat wanneer hij geen levens punten meer heeft dat de enemie object dan verslagen is.
+
+![Bullet_Idee](https://github.com/user-attachments/assets/5856509a-6e79-4355-8262-56dea99de2fc)
 
 Bij de Bullet_Idee heb ik uitgetekent hoe ik ongeveer wil dat de bullets werken.
 Ik heb getekent dat ik wil dat de torens een radius hebben waar ze alleen op de enemy GameObjecten schieten wanneer ze binnen in de radius zitten.
