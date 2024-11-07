@@ -14,8 +14,8 @@ PlayerSettings:
   accelerometerFrequency: 60
   companyName: Moonshine Studios
   productName: Helms Deep Defence
-  defaultCursor: {fileID: 2800000, guid: 34369c3083675944e812392564a31de2, type: 3}
-  cursorHotspot: {x: 125, y: 0}
+  defaultCursor: {fileID: 2800000, guid: c3757c5f1a5d8a64bae7a71140722fa7, type: 3}
+  cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
   m_ShowUnitySplashScreen: 1
   m_ShowUnitySplashLogo: 1
